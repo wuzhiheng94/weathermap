@@ -1,4 +1,4 @@
-FROM 100.125.4.222:20202/op_svc_cse/openjdk-x86_64:8-1.2.0
+FROM swr.cn-north-4.myhuaweicloud.com/op_svc_cse/openjdk-x86_64:8-1.2.0
 
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     echo "Asia/Shanghai" > /etc/timezone
